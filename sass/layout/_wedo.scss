@@ -23,10 +23,6 @@
         align-items: center;
         justify-content: center;
     }
-    .wedo {
-        display: unset;
-        padding-bottom: 95px;
-    }
     .wedo__headline {
         font-weight: 700;
         font-size: 36px;
@@ -39,5 +35,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+    .wedo {
+        display: block;
+        padding-bottom: 95px;
     }
 }

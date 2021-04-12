@@ -1,11 +1,7 @@
-.footer__socials {
-    margin-left: 70px;
-}
-
 .socials {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .socials__item:not(:last-child) {
@@ -31,5 +27,15 @@
         background-color: var(--accent-color);
         fill: var(--white-font);
         cursor: pointer;
+    }
+}
+
+.footer__socials {
+    margin-left: 70px;
+}
+
+@media screen and (min-width: 1200px) {
+    .socials {
+        justify-content: space-between;
     }
 }
