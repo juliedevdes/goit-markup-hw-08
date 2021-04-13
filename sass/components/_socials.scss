@@ -30,12 +30,11 @@
     }
 }
 
-.footer__socials {
-    margin-left: 70px;
-}
-
 @media screen and (min-width: 1200px) {
     .socials {
         justify-content: space-between;
+    }
+    .footer__socials {
+        margin-left: 70px;
     }
 }
