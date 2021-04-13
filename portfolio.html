@@ -90,11 +90,17 @@
                     <li class="portfolio__btn-list-item"><button class="portfolio__filter-button" type="button">Маркетинг</button></li>
                 </ul>
                 <ul class="portfolio__case-list list">
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                                <img src="./images/portfolio/img.jpg" width="370" height="295" alt="сайт с карточками про людей">
+                                <picture>
+                                    <source srcset="./images/portfolio/img.jpg, ./images/desktop@2x/por@2x-cryak.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-cryak.jpg 1x, ./images/tablet/por@2x-cryak.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-cryak.jpg 1x, ./images/mobile/por@2x-cryak.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img.jpg" alt="сайт с карточками про людей">
+
+                                </picture>
                             </div>
                             <div class="por-card__capture">
                                 <h2 class="por-card__header">Технокряк</h2>
@@ -103,25 +109,35 @@
                         </a>
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam perspiciatis laboriosam fuga voluptates.</p>
-                                <img src="./images/portfolio/img-1.jpg" width="370" alt="двое играют в баскетбол">
+                                <picture>
+                                    <source srcset="./images/portfolio/img-1.jpg, ./images/desktop@2x/por@2x-basketball.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-basketball.jpg 1x, ./images/tablet/por@2x-basketball.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-basketball.jpg 1x, ./images/mobile/por@2x-basketball.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-1.jpg" alt="двое играют в баскетбол">
+                                </picture>
 
                             </div>
-                            <div class="por-card__capture">
+                            <div class="por-card__capture por-card__capture--bigger">
                                 <h2 class="por-card__header">Постер New Orlean vs Golden Star</h2>
                                 <p class="por-card__text">Дизайн</p>
                             </div>
                         </a>
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam perspiciatis laboriosam fuga voluptates.</p>
-                                <img src="./images/portfolio/img-2.jpg" width="370" alt="логотип с рыбой на заднем плане">
+                                <picture>
+                                    <source srcset="./images/portfolio/img-2.jpg, ./images/desktop@2x/por@2x-sea.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-sea.jpg 1x, ./images/tablet/por@2x-sea.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-sea.jpg 1x, ./images/mobile/por@2x-sea.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-2.jpg" alt="логотип с рыбой на заднем плане">
+                                </picture>
                             </div>
                             <div class="por-card__capture">
                                 <h2 class="por-card__header">Ресторан Seafood</h2>
@@ -130,12 +146,19 @@
                         </a>
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur obcaecati sunt laboriosam pariatur dolorem quaerat facilis quasi totam voluptates explicabo, aliquid debitis quod quia nobis nihil reprehenderit nostrum
                                     labore? Eligendi!</p>
-                                <img src="./images/portfolio/img-3.jpg" width="370" alt="наушники">
+                                <picture>
+                                    <source srcset="./images/portfolio/img-3.jpg, ./images/desktop@2x/por@2x-headphones.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-headphones.jpg 1x, ./images/tablet/por@2x-headphones.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-headphones.jpg 1x, ./images/mobile/por@2x-headphones.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-3.jpg" alt="наушники">
+
+                                </picture>
+
                             </div>
                             <div class="por-card__capture">
                                 <h2 class="por-card__header">Проект Prime</h2>
@@ -144,12 +167,17 @@
                         </a>
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore accusantium, commodi perferendis doloremque, perspiciatis vero adipisci quam maiores eum ipsam repellendus doloribus quibusdam! Sed recusandae distinctio
                                     est voluptatem in a?</p>
-                                <img src="./images/portfolio/img-4.jpg" width="370" alt="две коробки картонные">
+                                <picture>
+                                    <source srcset="./images/portfolio/img-4.jpg, ./images/desktop@2x/por@2x-boxes.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-boxes.jpg 1x, ./images/tablet/por@2x-boxes.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-boxes.jpg 1x, ./images/mobile/por@2x-boxes.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-4.jpg" alt="две коробки картонные">
+                                </picture>
                             </div>
                             <div class="por-card__capture">
                                 <h2 class="por-card__header">Проект Boxes</h2>
@@ -158,11 +186,17 @@
                         </a>
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur obcaecati sunt laboriosam pariatur dolorem quaerat facilis quasi totam voluptates explicabo, aliquid debitis quod quia nobis nihil reprehenderit nostrum</p>
-                                <img src="./images/portfolio/img-5.jpg" width="370" alt="монитор с сайтом в темной теме">
+                                <picture>
+                                    <source srcset="./images/portfolio/img-5.jpg, ./images/desktop@2x/por@2x-screen.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-screen.jpg 1x, ./images/tablet/por@2x-screen.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-screen.jpg 1x, ./images/mobile/por@2x-screen.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-5.jpg" alt="монитор с сайтом в темной теме">
+
+                                </picture>
                             </div>
                             <div class="por-card__capture">
                                 <h2 class="por-card__header">Inspiration has no Borders</h2>
@@ -171,12 +205,17 @@
                         </a>
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur obcaecati sunt laboriosam pariatur dolorem quaerat facilis quasi totam voluptates explicabo, aliquid debitis quod quia nobis nihil reprehenderit nostrum
                                     labore? Eligendi!</p>
-                                <img src="./images/portfolio/img-6.jpg" width="370" alt="глянцевый журнал">
+                                <picture>
+                                    <source srcset="./images/portfolio/img-6.jpg, ./images/desktop@2x/por@2x-boxes.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-boxes.jpg 1x, ./images/tablet/por@2x-boxes.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-boxes.jpg 1x, ./images/mobile/por@2x-boxes.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-6.jpg" alt="глянцевый журнал">
+                                </picture>
                             </div>
                             <div class="por-card__capture">
                                 <h2 class="por-card__header">Издание Limited Edition</h2>
@@ -186,12 +225,18 @@
 
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur obcaecati sunt laboriosam pariatur dolorem quaerat facilis quasi totam voluptates explicabo, aliquid debitis quod quia nobis nihil reprehenderit nostrum
                                     labore? Eligendi!</p>
-                                <img src="./images/portfolio/img-7.jpg" width="370" alt="бирка с надписью лейбл">
+                                <picture>
+                                    <source srcset="./images/portfolio/img-7.jpg, ./images/desktop@2x/por@2x-tag.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-tag.jpg 1x, ./images/tablet/por@2x-tag.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-tag.jpg 1x, ./images/mobile/por@2x-tag.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-7.jpg" alt="бирка с надписью лейбл">
+
+                                </picture>
                             </div>
                             <div class="por-card__capture">
                                 <h2 class="por-card__header">Проект LAB</h2>
@@ -201,12 +246,19 @@
 
 
                     </li>
-                    <li>
+                    <li class="potfoilio__item">
                         <a href="" class="por-card link">
                             <div class="por-card__overlay--wrap">
                                 <p class="por-card__overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur obcaecati sunt laboriosam pariatur dolorem quaerat facilis quasi totam voluptates explicabo, aliquid debitis quod quia nobis nihil reprehenderit nostrum
                                     labore? Eligendi!</p>
-                                <img src="./images/portfolio/img-8.jpg" width="370" alt="ноутбук и руки">
+
+                                <picture>
+                                    <source srcset="./images/portfolio/img-8.jpg, ./images/desktop@2x/por@2x-hands.jpg 2x" media="(min-width:1200px)">
+                                    <source srcset="./images/tablet/por@1x-hands.jpg 1x, ./images/tablet/por@2x-hands.jpg 2x" media="(min-width:768px)">
+                                    <source srcset="./images/mobile/por@1x-hands.jpg 1x, ./images/mobile/por@2x-hands.jpg 2x" media="(min-width:320px)">
+                                    <img src="./images/portfolio/img-8.jpg" alt="ноутбук и руки">
+
+                                </picture>
 
                             </div>
                             <div class="por-card__capture">
