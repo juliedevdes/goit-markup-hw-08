@@ -3,6 +3,10 @@
     padding-top: 60px;
 }
 
+.porfolio__item {
+    display: block;
+}
+
 .por-card {
     max-width: 450px;
     max-height: 404px;
@@ -134,7 +138,6 @@
         display: block;
         max-width: 354px;
         max-height: 440px;
-        height: 440px;
     }
     .portfolio__btn-list {
         margin-bottom: 30px;

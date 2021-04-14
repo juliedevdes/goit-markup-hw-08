@@ -518,7 +518,7 @@ body {
 
 .hero__headline {
   font-size: 26px;
-  width: 360px;
+  max-width: 360px;
   margin: 0 auto;
   color: var(--white-font);
   text-transform: uppercase;
@@ -1052,6 +1052,10 @@ body {
   padding-top: 60px;
 }
 
+.porfolio__item {
+  display: block;
+}
+
 .por-card {
   max-width: 450px;
   max-height: 404px;
@@ -1181,7 +1185,6 @@ body {
     display: block;
     max-width: 354px;
     max-height: 440px;
-    height: 440px;
   }
   .portfolio__btn-list {
     margin-bottom: 30px;
@@ -1424,6 +1427,16 @@ body {
   .hero-modal {
     max-width: 320px;
     margin: 0 auto;
+  }
+  .hero-modal__check-label {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .hero-modal__term-link {
+    position: absolute;
+    top: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
