@@ -1194,6 +1194,7 @@ body {
   }
   .por-card__capture {
     height: 146px;
+    max-width: 354px;
   }
 }
 
