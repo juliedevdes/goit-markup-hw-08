@@ -5,11 +5,11 @@
 
 .porfolio__item {
     display: block;
+    max-width: 450px;
+    max-height: 404px;
 }
 
 .por-card {
-    max-width: 450px;
-    max-height: 404px;
     margin-left: 30px;
     margin-top: 30px;
     display: block;
@@ -128,14 +128,17 @@
     z-index: 1000;
 }
 
+.por-card__pic {
+    max-width: 100%;
+}
+
 @media screen and (min-width: 768px) {
     .portfolio__btn-list-item {
         &:not(:nth-last-of-type(-n+2)) {
             margin-bottom: unset;
         }
     }
-    .por-card {
-        display: block;
+    .porfolio__item {
         max-width: 354px;
         max-height: 440px;
     }
@@ -163,12 +166,10 @@
         padding-bottom: 95px;
         padding-top: 95px;
     }
-    /* кнопки сверху */
     .portfolio__btn-list {
         margin-bottom: 50px;
     }
-    /* карточка */
-    .por-card {
+    .porfolio__item {
         max-width: 370px;
         max-height: 404px;
     }
