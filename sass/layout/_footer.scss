@@ -126,6 +126,7 @@
 @media screen and (min-width: 1200px) {
     .footer--position {
         flex-wrap: unset;
+        justify-content: space-between;
     }
     .footer__subsc-form {
         flex-direction: unset;

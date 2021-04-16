@@ -334,6 +334,12 @@ body {
   .mobile-menu__close:focus {
     fill: var(--accent-color);
   }
+  .current {
+    color: var(--accent-color);
+  }
+  .header {
+    border-bottom: 1px solid #ECECEC;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1023,6 +1029,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer--position {
     flex-wrap: unset;
+    justify-content: space-between;
   }
   .footer__subsc-form {
     flex-direction: unset;
@@ -1206,6 +1213,7 @@ body {
     padding-left: 25px;
     padding-bottom: 20px;
     height: unset;
+    max-width: unset;
   }
   .portfolio {
     padding-bottom: 95px;

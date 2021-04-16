@@ -98,6 +98,12 @@
                 fill: var(--accent-color);
             }
         }
+        .current {
+            color: var(--accent-color);
+        }
+        .header {
+            border-bottom: 1px solid #ECECEC;
+        }
     }
     
     @media screen and (max-width: 480px) {
