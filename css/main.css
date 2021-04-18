@@ -111,11 +111,9 @@ body {
   display: block;
 }
 
-@media screen and (min-width: 450px) {
-  .header__logo {
-    font-size: 24px;
-    letter-spacing: 0.03em;
-  }
+.header__logo {
+  font-size: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer__logo--light {
@@ -634,6 +632,7 @@ body {
   align-items: center;
   border-radius: 4px;
   height: 120px;
+  margin-bottom: 30px;
 }
 
 .features {
@@ -654,7 +653,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 
 .features__text {
@@ -1185,6 +1183,16 @@ body {
 
 .por-card__pic {
   max-width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .por-card__overlay {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 768px) {
